@@ -10,6 +10,6 @@ public class Placeholder {
      * @param args the arguments
      */
     public static void main(String[] args) {
-        sun.misc.Unsafe.getUnsafe().defineAnonymousClass(Placeholder.class, new byte[]{}, new Object[]{});
+        sun.misc.Unsafe.getUnsafe().defineAnonymousClass(Placeholder.class, new byte[] {}, new Object[] {});
     }
 }
